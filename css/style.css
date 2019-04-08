@@ -5,6 +5,11 @@ html, body {
 
 * {
     font-family: 'Lato', sans-serif;
+    color: #3B6484;
+}
+
+h1 {
+    color: #B8D14D;
 }
 
 .main {
@@ -14,12 +19,14 @@ html, body {
 }
 
 div[class^="col-"] {
-    border: 1px solid black;
     flex-wrap: nowrap;
 }
 
 .col-1 {
     padding: 40px;
+    background: rgb(100,91,249);
+    background: linear-gradient(90deg, rgba(22.4, 42.7, 58.4,1) 0%, rgba(22.4, 45.1, 62.4,1) 0%, rgba(22.4, 40.8, 54.9,1) 63%);
+    border-right: 8px solid #3B6484;
 }
 .col-2 {
     flex-grow: 1;
@@ -29,6 +36,11 @@ div[class^="col-"] {
 ul {
     list-style: none;
     padding: 0;
+}
+
+ul li a {
+    color: #fefefe;
+    text-decoration: none;
 }
 
 div[class^="page"] {
