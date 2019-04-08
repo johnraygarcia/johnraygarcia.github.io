@@ -57,3 +57,7 @@ div[class^="page"] {
     height: 100vh;
     padding: 40px;
 }
+
+.pages h1 {
+    color: #444;
+}
